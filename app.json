@@ -1,0 +1,22 @@
+{
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "env": {
+        "BOT_API": {
+            "description": "Bot API Key from BotFather https://t.me/BotFather",
+            "required": true
+        },
+        "PORT": {
+            "description": "PORT",
+            "required": false
+        },
+        "heroku": {
+            "description": "Heroku app URL",
+            "required": true
+        }
+    }
+}
